@@ -1,0 +1,101 @@
+ /* Signup Page Styles */
+
+.signup-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f7f7f7;
+}
+
+.signup-page .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2em;
+    position: relative;
+}
+
+.signup-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2em;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 40%;
+    position: relative;
+}
+
+.signup-form h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.signup-form input {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.signup-form button[type="submit"] {
+    background-color: #337ab7;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.signup-form button[type="submit"]:hover {
+    background-color: #23527c;
+}
+
+.signup-page .back-button {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    font-size: 24px;
+    cursor: pointer;
+    text-decoration: none;
+    color: #337ab7;
+}
+
+.signup-page .back-button:hover {
+    color: #23527c;
+}
+
+.signup-form .close-button-container {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.signup-form .close-button {
+    font-size: 24px;
+    cursor: pointer;
+    text-decoration: none;
+    color: #337ab7;
+}
+
+.signup-form .close-button:hover {
+    color: #23527c;
+}
+
+.signup-form p {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.signup-form a {
+    text-decoration: none;
+    color: #337ab7;
+}
+
+.signup-form a:hover {
+    color: #23527c;
+}
